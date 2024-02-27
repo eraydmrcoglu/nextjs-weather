@@ -1,10 +1,10 @@
 "use client";
+
 import React, { useEffect } from "react";
 import { MapContainer, TileLayer, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { useGlobalContext } from "@/app/context/globalContext";
 
-// @ts-ignore
 function FlyToActiveCity({ activeCityCords }) {
   const map = useMap();
 

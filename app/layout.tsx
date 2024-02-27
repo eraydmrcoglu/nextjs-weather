@@ -5,9 +5,11 @@ import { ThemeProvider } from "./Providers/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Weather App",
-  description: "A weather app built with Next JS and Tailwind CSS",
+  description: "A weather app built with Next.js and TailwindCSS",
 };
 
 export default function RootLayout({
