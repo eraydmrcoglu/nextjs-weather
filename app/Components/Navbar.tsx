@@ -23,7 +23,7 @@ function Navbar() {
           <Button
             className="source-code-btn flex items-center gap-2"
             onClick={() => {
-              router.push("https://github.com/eraydmrcoglu");
+              router.push("https://github.com/eraydmrcoglu/nextjs-weather");
             }}
           >
             {github} Source Code
